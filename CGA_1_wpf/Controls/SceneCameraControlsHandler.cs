@@ -17,7 +17,7 @@ namespace CGA_1_wpf.Controls
         const float WHEEL_MULTIPLIER = 1f, MOVE_SPEED = 1f;
         double ROTATE_SPEED = 0.01f;
 
-        Control control;
+        Image control;
         Camera camera;
 
         bool leftB, rightB;
@@ -31,13 +31,13 @@ namespace CGA_1_wpf.Controls
             set => PropertyChangedHelper.ChangeValue(ref camera, value);
         }
 
-        public SceneCameraControlsHandler(Control control, Camera camera)
+        public SceneCameraControlsHandler(Image control, Camera camera)
         {
             Control = control;
             Camera = camera;
         }
 
-        public Control Control
+        public Image Control
         {
             get => control;
             set
@@ -147,17 +147,16 @@ namespace CGA_1_wpf.Controls
             if (rightB)
             {
                 var delta = Point.Subtract(mouse, e.GetPosition(sender as IInputElement));
-                move((float) (-delta.X * ROTATE_SPEED), (float) (delta.Y * ROTATE_SPEED), 0);
+                move((float)(-delta.X * ROTATE_SPEED), (float)(delta.Y * ROTATE_SPEED), 0);
                 mouse = e.GetPosition(sender as IInputElement);
             }
             if (leftB)
             {
 
                 var delta = Point.Subtract(mouse, e.GetPosition(sender as IInputElement));
-                rotate((float) (-delta.Y * ROTATE_SPEED), (float) (delta.X * ROTATE_SPEED), 0);
+                rotate((float)(-delta.Y * ROTATE_SPEED), (float)(delta.X * ROTATE_SPEED), 0);
                 mouse = e.GetPosition(sender as IInputElement);
             }
         }
-
     }
 }

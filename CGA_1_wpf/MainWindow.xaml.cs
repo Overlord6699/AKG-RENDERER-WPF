@@ -1,4 +1,5 @@
 ﻿using CGA_1_wpf.Controls;
+using CGA_1_wpf.Controls.WinForms3D;
 using CGA_1_wpf.CutoffPixelsManagers;
 using CGA_1_wpf.Entities;
 using CGA_1_wpf.LightningManagers;
@@ -158,6 +159,11 @@ namespace CGA_1_wpf
             return null;
         }
 
+        private void img_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MM_cb.IsEnabled = true;
@@ -170,38 +176,16 @@ namespace CGA_1_wpf
             _model = ReadObj.ReadObjFile(ChooseFile());
             if (_model != null)
             {
-                var width = picContainer.ActualWidth;
-                var height = picContainer.ActualHeight;
+                width = picContainer.ActualWidth;
+                height = picContainer.ActualHeight;
                 _parameters = new Parameters(width, height);
+
+                ScreenCameraHandler handler = new ScreenCameraHandler(img, _parameters.Camera);
+
 
                 Draw((int)width, (int)height);
             }
-
-            width = picContainer.ActualWidth;
-            height = picContainer.ActualHeight;
         }
 
-        private void img_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            Point oldMousePosition = e.GetPosition(img);
-
-            MouseControls.getMouseButtons(e, out bool left, out bool right);
-
-            if (left && right)
-            {
-                //oldCameraPosition = camera.Position;
-                Cursor = Cursors.SizeNS;
-            }
-            else if (left)
-            {
-                //oldCameraRotation = camera.Rotation;
-                Cursor = Cursors.None;
-            }
-            else if (right)
-            {
-                //oldCameraPosition = camera.Position;
-                Cursor = Cursors.SizeAll;
-            }
-        }
     }
 }

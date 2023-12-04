@@ -58,6 +58,7 @@
     </ApplicationDefinition>
     <Compile Include="Controls\MouseControls.cs" />
     <Compile Include="Controls\SceneCameraControlsHandler.cs" />
+    <Compile Include="Controls\ScreenCameraHandler.cs" />
     <Compile Include="CutoffPixelsManagers\ICutoffPixelsManager.cs" />
     <Compile Include="CutoffPixelsManagers\SimpleCutoffManager.cs" />
     <Compile Include="DrawLine.cs" />
@@ -68,6 +69,8 @@
     <Compile Include="Entities\Vertice.cs" />
     <Compile Include="LightningManagers\ILightningManager.cs" />
     <Compile Include="LightningManagers\LambertLightningManager.cs" />
+    <Compile Include="Utils\GeomUtils.cs" />
+    <Compile Include="Utils\MathUtils.cs" />
     <Compile Include="Utils\ReadObj.cs" />
     <Compile Include="Rotation.cs" />
     <Compile Include="Utils\TransformationMatrices.cs" />
