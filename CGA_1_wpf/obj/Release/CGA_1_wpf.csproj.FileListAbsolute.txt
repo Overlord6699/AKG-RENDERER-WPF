@@ -1,0 +1,16 @@
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\bin\Release\CGA_1_wpf.exe.config
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\bin\Release\CGA_1_wpf.exe
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\bin\Release\CGA_1_wpf.pdb
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf.csproj.AssemblyReference.cache
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf.csproj.SuggestedBindingRedirects.cache
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\MainWindow.g.cs
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\App.g.cs
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf_MarkupCompile.cache
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf_MarkupCompile.lref
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\MainWindow.baml
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf.g.resources
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf.Properties.Resources.resources
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf.csproj.GenerateResource.cache
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf.csproj.CoreCompileInputs.cache
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf.exe
+F:\Programs\Labs\Unik\4\АКГ\CGA_2_wpf\CGA_1_wpf\obj\Release\CGA_1_wpf.pdb
